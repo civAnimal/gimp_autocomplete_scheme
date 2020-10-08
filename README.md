@@ -1,6 +1,6 @@
 ## GIMP Auto-Complete Scheme API for Sublime Text
 
-This auto-complete plugin covers __1000+__ Functions/Procedures and Constants available in GIMP's Plugin API. All these functions and constants are now just a few keys away. Simply type some letters of the function and press `Enter`. The full function name, together with parenthesis and arguments(if any) shall appear at cursor location. Imagine how much typing that would save you.
+This auto-complete plugin covers __1000+__ Functions/Procedures and Constants available in GIMP's Plugin API. All these functions and constants are now just a few keys away. Simply type some letters of a function and press `Enter`. The full function name, together with parentheses and arguments (if any) shall appear at cursor location. Imagine how much typing that would save you.
 
 
 ### Examples
@@ -21,6 +21,8 @@ This auto-complete plugin covers __1000+__ Functions/Procedures and Constants av
  `csfi`        | `SF-IMAGE`
  `csfd`        | `SF-DRAWABLE`
  `crgba`       | `RGBA-IMAGE`
+ `clov`        | `LAYER-MODE-OVERLAY`
+ `clmul`       | `LAYER-MODE-MULTIPLY-LEGACY`
  `crnoi`       | `RUN-NONINTERACTIVE`
  `ctr`         | `TRUE`
 
@@ -28,8 +30,9 @@ This auto-complete plugin covers __1000+__ Functions/Procedures and Constants av
 ### Tips
 
 * Remember, `f` is for ... Functions, and `c` is for ... Constants.
-* You don't need to type any of the prefixes, like `gimp`, `script_fu`, `python_fu`, etc. Just type a few letters from the "true name" of a function/constant. Observe the patterns used in examples.
+* You don't need to type any of the prefixes, like `gimp`, `script-fu`, `python-fu`, etc. Just type a few letters from the "true name" of a function/constant. Observe the patterns used in examples.
 * You could use `Tab` and `Shift+Tab` to cycle forward and backward through arguments.
+* If you accidentally invoke an undesirable completion, performing a simple Undo `ctrl + z` might be a better fix, rather than manually deleting the unwanted bits.
 
 
 ### Installation
@@ -42,7 +45,7 @@ This auto-complete plugin covers __1000+__ Functions/Procedures and Constants av
 
 ### Notes
 
-* The data is based upon GIMP 2.10.20.01.
+* The data is based upon GIMP 2.10.20 r1.
 * All deprecated functions have been filtered out.
 * A Python version of this plugin is available here: https://github.com/civAnimal/gimp_autocomplete_python
 * This plugin is released under ... GNU General Public License (v3).
