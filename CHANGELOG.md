@@ -1,6 +1,12 @@
 ## GIMP Auto-Complete Scheme API for Sublime Text ... CHANGELOG
 
 
+## 1.1.0
+
+* Added simple completion hints.
+* Other minor code-changes.
+
+
 ## 1.0.2
 
 * Updated installation instructions in README.
