@@ -16,8 +16,8 @@ This auto-complete plugin covers __1000+__ Functions/Procedures and Constants av
  `fcub`        | `(plug-in-cubism run-mode image drawable tile-size tile-saturation bg-color)`
  `fgsa`        | `(python-fu-gradient-save-as-css run-mode gradient file-name)`
  `ffo`         | `(python-fu-foggify run-mode image drawable name colour turbulence opacity)`
- `fstcm`       | `(script-fu-set-cmap run-mode image drawable palette)`
- `fba`         | `(script-fu-blend-anim run-mode image drawable value value toggle)`
+ `fstcm`       | `(script-fu-set-cmap image drawable palette)`
+ `fba`         | `(script-fu-blend-anim image drawable value value toggle)`
  `csfi`        | `SF-IMAGE`
  `csfd`        | `SF-DRAWABLE`
  `crgba`       | `RGBA-IMAGE`

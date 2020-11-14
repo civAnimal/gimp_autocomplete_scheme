@@ -1,6 +1,11 @@
 ## GIMP Auto-Complete Scheme API for Sublime Text ... CHANGELOG
 
 
+## 2.0.0
+
+* The `run-mode` parameter, erroneously reported (in over 40 functions) in official GIMP api, has been removed.
+
+
 ## 1.1.0
 
 * Added simple completion hints.
